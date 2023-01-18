@@ -30,21 +30,18 @@ for index,eachName in enumerate(names):
     html = urlopen(links[index])
     soup=BeautifulSoup(html.read(), "html.parser")
     allMeets = soup.find('div',id='meet-results').findAll('div')
-    prMeets=soup.findAll('tr', class_='highlight')
-    print(eachName)
-    for eachMeet in prMeets:
-        print(eachMeet.find_parent().find('span').text.strip())
+    prMeets=[]
+    for eachMeet in allMeets:
+        if (eachMeet.find('tr',class_='highlight')!=None):
+            print(eachName + ' pr\'d in the ' + eachMeet.find('a').text + ' on ' +eachMeet.find('span').text.strip())
         inputDate = eachMeet.find_parent().find('span').text.strip()
         format="%b %d, %Y"
         meetDay = datetime.strptime(inputDate,format).date()
-        if(meetDay>twoweeksago):
-            print(eachName + ' pr\'d ')
 
 testurl = 'https://www.tfrrs.org/athletes/8280699/Wis_Stevens_Point/Joseph_Adams.html'
 
 html = urlopen(testurl)
 soup=BeautifulSoup(html.read(), "html.parser")
-prMeets=soup.findAll('tr', class_='highlight')
 prMeets[0].find_parent().find('span').text.strip()
 allMeets = soup.find('div',id='meet-results').findAll('div')
 
