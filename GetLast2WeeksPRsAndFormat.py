@@ -2,6 +2,8 @@ from urllib.request import urlopen
 from bs4 import BeautifulSoup
 from datetime import datetime,timedelta
 from itertools import groupby
+import os
+
 
 daysToRemove = 14
 mensTrackURL = 'https://www.tfrrs.org/teams/tf/WI_college_m_Wis_Stevens_Point.html'
@@ -56,21 +58,29 @@ for index,eachName in enumerate(names):
                 initalDictionary.append((eachName,meetName,eventName,pr,meetDate))
                 print(eachName)
 
-f = open("recentPRS.txt", "a")
+newHTML=''
 sortedDictByDate = {k: list(g) for k, g in groupby(sorted(initalDictionary, key=lambda x: x[4], reverse=True), key=lambda x: x[4])}
 for eachDate,meetsAtDate in sortedDictByDate.items():
     sortedByMeet = {k: list(g) for k, g in groupby(sorted(meetsAtDate, key=lambda x: x[1]), key=lambda x: x[1])}
     for eachMeet,prs in sortedByMeet.items():
-        f.write('<h3>')
-        f.write (eachMeet + ' date ' + prs[0][4].strftime(format))
-        f.write('</h3>\n')
-        f.write('<p>\n')
-        f.write('<ul>\n')
+        newHTML +=('<h3>')
+        newHTML += (eachMeet + ' date ' + prs[0][4].strftime(format))
+        newHTML +=('</h3>')
+        newHTML +=('<div>')
+        newHTML +=('<ul>')
         for eachPR in prs:            
-            f.write('<li>\n')
-            f.write (eachPR[0] + " pr'd in the " + eachPR[2] + " with a " + eachPR[3] +'\n</li>\n')
-        f.write('</ul>\n')
-        f.write('</p>\n')
+            newHTML +=('<li>')
+            newHTML += (eachPR[0] + " pr'd in the " + eachPR[2] + " with a " + eachPR[3] +'</li>')
+        newHTML +=('</ul>')
+        newHTML +=('</div>')
 
+script_path = os.path.abspath(__name__) # i.e. /path/to/dir/foobar.py
+script_dir = os.path.split(script_path)[0] #i.e. /path/to/dir/
+file_path = script_dir+"\\recentPRs.html"
+
+f = open(file_path, "w")
+printSoup = BeautifulSoup(newHTML)
+f.write(printSoup.prettify())
 f.close()
-input('enter to close')
+input('html is here -->' + file_path)
+input()
