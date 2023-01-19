@@ -2,6 +2,7 @@ from urllib.request import urlopen
 from bs4 import BeautifulSoup
 from datetime import datetime,timedelta
 from itertools import groupby
+import json
 
 
 daysToRemove = 14
@@ -57,25 +58,29 @@ for index,eachName in enumerate(names):
                 initalDictionary.append((eachName,meetName,eventName,pr,meetDate))
                 print(eachName)
 
-newHTML=''
+prepForJSON=[]
 sortedDictByDate = {k: list(g) for k, g in groupby(sorted(initalDictionary, key=lambda x: x[4], reverse=True), key=lambda x: x[4])}
 for eachDate,meetsAtDate in sortedDictByDate.items():
     sortedByMeet = {k: list(g) for k, g in groupby(sorted(meetsAtDate, key=lambda x: x[1]), key=lambda x: x[1])}
     for eachMeet,prs in sortedByMeet.items():
-        newHTML +=('<h3>')
-        newHTML += (eachMeet + ' date ' + prs[0][4].strftime(format))
-        newHTML +=('</h3>')
-        newHTML +=('<div>')
-        newHTML +=('<ul>')
-        for eachPR in prs:            
-            newHTML +=('<li>')
-            newHTML += (eachPR[0] + " pr'd in the " + eachPR[2] + " with a " + eachPR[3] +'</li>')
-        newHTML +=('</ul>')
-        newHTML +=('</div>')
+        listOfPRS = []
+        uniqueNames=[]
+        uniqueNameCount=0
+        for eachPR in prs:
+            if (eachPR[0] not in uniqueNames):
+                uniqueNames.append(eachPR[0])
+                uniqueNameCount+=1;
+            listOfPRS.append({"athletename":eachPR[0],"eventname":eachPR[2],"pr":eachPR[3]})
+        jsonMeetOBJ = {"meetname":eachMeet,
+                       "meetdate":prs[0][4].strftime(format),
+                       "numberofprs":len(prs),
+                       "uniqueprs":uniqueNameCount,
+                       "prsatmeet":listOfPRS}
+        print(jsonMeetOBJ)
+        prepForJSON.append(jsonMeetOBJ)
 
-f = open('recentPRs.html', "w")
-printSoup = BeautifulSoup(newHTML, "html.parser")
-f.write(printSoup.prettify())
+f = open('recentPRs.json', "w")
+f.write(json.dumps(prepForJSON, indent=4))
 f.close()
 print('DONE')
 input()
