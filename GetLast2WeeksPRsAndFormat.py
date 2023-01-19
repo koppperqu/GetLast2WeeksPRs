@@ -76,7 +76,6 @@ for eachDate,meetsAtDate in sortedDictByDate.items():
                        "numberofprs":len(prs),
                        "uniqueprs":uniqueNameCount,
                        "prsatmeet":listOfPRS}
-        print(jsonMeetOBJ)
         prepForJSON.append(jsonMeetOBJ)
 
 f = open('recentPRs.json', "w")
