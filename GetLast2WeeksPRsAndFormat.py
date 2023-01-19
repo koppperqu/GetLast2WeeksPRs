@@ -2,7 +2,6 @@ from urllib.request import urlopen
 from bs4 import BeautifulSoup
 from datetime import datetime,timedelta
 from itertools import groupby
-import os
 
 
 daysToRemove = 14
@@ -74,13 +73,9 @@ for eachDate,meetsAtDate in sortedDictByDate.items():
         newHTML +=('</ul>')
         newHTML +=('</div>')
 
-script_path = os.path.abspath(__name__) # i.e. /path/to/dir/foobar.py
-script_dir = os.path.split(script_path)[0] #i.e. /path/to/dir/
-file_path = script_dir+"\\recentPRs.html"
-
-f = open(file_path, "w")
-printSoup = BeautifulSoup(newHTML)
+f = open('recentPRs.html', "w")
+printSoup = BeautifulSoup(newHTML, "html.parser")
 f.write(printSoup.prettify())
 f.close()
-input('html is here -->' + file_path)
+print('DONE')
 input()
