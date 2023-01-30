@@ -1,9 +1,377 @@
 [
     {
+        "meetname": "Leonard \"Squig\" Converse Invitational & Multi",
+        "meetdate": "Jan 27, 2023",
+        "numberofprs": 72,
+        "uniqueprs": 44,
+        "prsatmeet": [
+            {
+                "athletename": "Joseph Adams",
+                "eventname": "5000",
+                "pr": "16:37.08"
+            },
+            {
+                "athletename": "Colton Brecka",
+                "eventname": "SP",
+                "pr": "9.32m"
+            },
+            {
+                "athletename": "Colton Brecka",
+                "eventname": "WT",
+                "pr": "10.85m"
+            },
+            {
+                "athletename": "Mike Brown",
+                "eventname": "5000",
+                "pr": "15:56.15"
+            },
+            {
+                "athletename": "Sean Campbell",
+                "eventname": "3000",
+                "pr": "8:59.80"
+            },
+            {
+                "athletename": "Tom Cole",
+                "eventname": "Hep",
+                "pr": "3983"
+            },
+            {
+                "athletename": "Tom Cole",
+                "eventname": "60",
+                "pr": "7.38"
+            },
+            {
+                "athletename": "Tom Cole",
+                "eventname": "SP",
+                "pr": "11.10m"
+            },
+            {
+                "athletename": "Tom Cole",
+                "eventname": "HJ",
+                "pr": "1.68m"
+            },
+            {
+                "athletename": "Tom Cole",
+                "eventname": "60H",
+                "pr": "10.37"
+            },
+            {
+                "athletename": "Tom Cole",
+                "eventname": "1000",
+                "pr": "3:12.75"
+            },
+            {
+                "athletename": "Carter Dachelet",
+                "eventname": "WT",
+                "pr": "9.38m"
+            },
+            {
+                "athletename": "Eric  East",
+                "eventname": "800",
+                "pr": "2:02.49"
+            },
+            {
+                "athletename": "Quinn Greer",
+                "eventname": "60H",
+                "pr": "8.83"
+            },
+            {
+                "athletename": "Chance Jampole",
+                "eventname": "60",
+                "pr": "7.44"
+            },
+            {
+                "athletename": "Dylan Jensen",
+                "eventname": "3000",
+                "pr": "8:55.82"
+            },
+            {
+                "athletename": "Parker Johnson",
+                "eventname": "Hep",
+                "pr": "2930"
+            },
+            {
+                "athletename": "Parker Johnson",
+                "eventname": "60",
+                "pr": "7.86"
+            },
+            {
+                "athletename": "Parker Johnson",
+                "eventname": "LJ",
+                "pr": "5.46m"
+            },
+            {
+                "athletename": "Parker Johnson",
+                "eventname": "SP",
+                "pr": "7.59m"
+            },
+            {
+                "athletename": "Parker Johnson",
+                "eventname": "HJ",
+                "pr": "1.59m"
+            },
+            {
+                "athletename": "Parker Johnson",
+                "eventname": "60H",
+                "pr": "10.31"
+            },
+            {
+                "athletename": "Parker Johnson",
+                "eventname": "1000",
+                "pr": "3:09.68"
+            },
+            {
+                "athletename": "Josh Jumbeck",
+                "eventname": "3000",
+                "pr": "8:43.62"
+            },
+            {
+                "athletename": "Chris Kalies",
+                "eventname": "800",
+                "pr": "2:03.52"
+            },
+            {
+                "athletename": "Gaven Lange",
+                "eventname": "PV",
+                "pr": "4.20m"
+            },
+            {
+                "athletename": "Dalton Lebal",
+                "eventname": "WT",
+                "pr": "12.38m"
+            },
+            {
+                "athletename": "John Lee",
+                "eventname": "3000",
+                "pr": "9:12.69"
+            },
+            {
+                "athletename": "Aiden Leist",
+                "eventname": "400",
+                "pr": "52.06"
+            },
+            {
+                "athletename": "Jack Luedtke",
+                "eventname": "Hep",
+                "pr": "3745"
+            },
+            {
+                "athletename": "Jack Luedtke",
+                "eventname": "60",
+                "pr": "7.53"
+            },
+            {
+                "athletename": "Jack Luedtke",
+                "eventname": "LJ",
+                "pr": "5.84m"
+            },
+            {
+                "athletename": "Jack Luedtke",
+                "eventname": "SP",
+                "pr": "9.43m"
+            },
+            {
+                "athletename": "Jack Luedtke",
+                "eventname": "HJ",
+                "pr": "1.59m"
+            },
+            {
+                "athletename": "Jack Luedtke",
+                "eventname": "1000",
+                "pr": "3:14.60"
+            },
+            {
+                "athletename": "Jacob  McConnell",
+                "eventname": "SP",
+                "pr": "11.44m"
+            },
+            {
+                "athletename": "Ryan Reed",
+                "eventname": "3000",
+                "pr": "8:52.06"
+            },
+            {
+                "athletename": "Austin Rennhack",
+                "eventname": "WT",
+                "pr": "15.27m"
+            },
+            {
+                "athletename": "Ryan Rininger",
+                "eventname": "5000",
+                "pr": "16:02.34"
+            },
+            {
+                "athletename": "Aidan Schleutermann",
+                "eventname": "5000",
+                "pr": "16:10.59"
+            },
+            {
+                "athletename": "Canon Siedschlag",
+                "eventname": "400",
+                "pr": "54.27"
+            },
+            {
+                "athletename": "Andrew Vold",
+                "eventname": "60",
+                "pr": "7.18"
+            },
+            {
+                "athletename": "Andrew Vold",
+                "eventname": "200",
+                "pr": "23.70"
+            },
+            {
+                "athletename": "Matt Vosberg",
+                "eventname": "SP",
+                "pr": "10.93m"
+            },
+            {
+                "athletename": "Brooke Alleman",
+                "eventname": "PV",
+                "pr": "2.84m"
+            },
+            {
+                "athletename": "Ashley Bartelt",
+                "eventname": "400",
+                "pr": "1:01.07"
+            },
+            {
+                "athletename": "Madddy  Boehnlein",
+                "eventname": "400",
+                "pr": "1:05.39"
+            },
+            {
+                "athletename": "Lupe Corn",
+                "eventname": "WT",
+                "pr": "13.93m"
+            },
+            {
+                "athletename": "Jaimie Deschand",
+                "eventname": "800",
+                "pr": "2:36.53"
+            },
+            {
+                "athletename": "Natasha Hess",
+                "eventname": "Pent",
+                "pr": "2291"
+            },
+            {
+                "athletename": "Natasha Hess",
+                "eventname": "SP",
+                "pr": "8.50m"
+            },
+            {
+                "athletename": "Natasha Hess",
+                "eventname": "LJ",
+                "pr": "4.53m"
+            },
+            {
+                "athletename": "Natasha Hess",
+                "eventname": "800",
+                "pr": "2:43.99"
+            },
+            {
+                "athletename": "Natalie Johnson",
+                "eventname": "3000",
+                "pr": "11:40.89"
+            },
+            {
+                "athletename": "Lindsey Jossie",
+                "eventname": "LJ",
+                "pr": "4.89m"
+            },
+            {
+                "athletename": "Lindsey Jossie",
+                "eventname": "Pent",
+                "pr": "2460"
+            },
+            {
+                "athletename": "Lindsey Jossie",
+                "eventname": "60H",
+                "pr": "10.66"
+            },
+            {
+                "athletename": "Lindsey Jossie",
+                "eventname": "HJ",
+                "pr": "1.31m"
+            },
+            {
+                "athletename": "Lindsey Jossie",
+                "eventname": "SP",
+                "pr": "6.52m"
+            },
+            {
+                "athletename": "Lindsey Jossie",
+                "eventname": "800",
+                "pr": "2:32.55"
+            },
+            {
+                "athletename": "Madison Juenger",
+                "eventname": "3000",
+                "pr": "11:44.81"
+            },
+            {
+                "athletename": "Kassia Marquardt",
+                "eventname": "800",
+                "pr": "2:38.99"
+            },
+            {
+                "athletename": "Hadley Reines",
+                "eventname": "800",
+                "pr": "2:38.27"
+            },
+            {
+                "athletename": "Kylee Sauers",
+                "eventname": "800",
+                "pr": "2:26.09"
+            },
+            {
+                "athletename": "Jordan Shamion",
+                "eventname": "LJ",
+                "pr": "4.46m"
+            },
+            {
+                "athletename": "Jordan Shamion",
+                "eventname": "800",
+                "pr": "2:37.18"
+            },
+            {
+                "athletename": "Kya Smith",
+                "eventname": "400",
+                "pr": "1:04.71"
+            },
+            {
+                "athletename": "Brenna Steinagel",
+                "eventname": "SP",
+                "pr": "8.51m"
+            },
+            {
+                "athletename": "Adyn Theriault",
+                "eventname": "LJ",
+                "pr": "5.15m"
+            },
+            {
+                "athletename": "Salina Warren",
+                "eventname": "60",
+                "pr": "8.44"
+            },
+            {
+                "athletename": "Salina Warren",
+                "eventname": "HJ",
+                "pr": "1.51m"
+            },
+            {
+                "athletename": "Madeline Zirbel",
+                "eventname": "HJ",
+                "pr": "1.61m"
+            }
+        ]
+    },
+    {
         "meetname": "UW-P / UW-EC / UW-SP Triangular",
         "meetdate": "Jan 21, 2023",
-        "numberofprs": 69,
-        "uniqueprs": 56,
+        "numberofprs": 47,
+        "uniqueprs": 43,
         "prsatmeet": [
             {
                 "athletename": "Joseph Adams",
@@ -14,16 +382,6 @@
                 "athletename": "Noah Bliss",
                 "eventname": "800",
                 "pr": "2:05.34"
-            },
-            {
-                "athletename": "Colton Brecka",
-                "eventname": "SP",
-                "pr": "8.62m"
-            },
-            {
-                "athletename": "Colton Brecka",
-                "eventname": "WT",
-                "pr": "10.28m"
             },
             {
                 "athletename": "Brad Brewer",
@@ -41,19 +399,9 @@
                 "pr": "4:37.86"
             },
             {
-                "athletename": "Tom Cole",
-                "eventname": "60H",
-                "pr": "10.62"
-            },
-            {
                 "athletename": "Carter Dachelet",
                 "eventname": "SP",
                 "pr": "11.59m"
-            },
-            {
-                "athletename": "Carter Dachelet",
-                "eventname": "WT",
-                "pr": "8.99m"
             },
             {
                 "athletename": "Garrett Exo",
@@ -66,16 +414,6 @@
                 "pr": "50.94"
             },
             {
-                "athletename": "Quinn Greer",
-                "eventname": "60H",
-                "pr": "8.94"
-            },
-            {
-                "athletename": "Chance Jampole",
-                "eventname": "60",
-                "pr": "7.66"
-            },
-            {
                 "athletename": "Chance Jampole",
                 "eventname": "200",
                 "pr": "24.41"
@@ -84,21 +422,6 @@
                 "athletename": "Dylan Jensen",
                 "eventname": "Mile",
                 "pr": "4:33.03"
-            },
-            {
-                "athletename": "Parker Johnson",
-                "eventname": "60H",
-                "pr": "10.37"
-            },
-            {
-                "athletename": "Parker Johnson",
-                "eventname": "HJ",
-                "pr": "1.55m"
-            },
-            {
-                "athletename": "Parker Johnson",
-                "eventname": "LJ",
-                "pr": "5.18m"
             },
             {
                 "athletename": "Josh Jumbeck",
@@ -121,24 +444,9 @@
                 "pr": "14.91m"
             },
             {
-                "athletename": "Gaven Lange",
-                "eventname": "PV",
-                "pr": "3.93m"
-            },
-            {
-                "athletename": "Dalton Lebal",
-                "eventname": "WT",
-                "pr": "12.21m"
-            },
-            {
                 "athletename": "Aiden Leist",
                 "eventname": "200",
                 "pr": "23.50"
-            },
-            {
-                "athletename": "Jacob  McConnell",
-                "eventname": "SP",
-                "pr": "11.09m"
             },
             {
                 "athletename": "Mason Mead",
@@ -159,11 +467,6 @@
                 "athletename": "Ryan Reed",
                 "eventname": "Mile",
                 "pr": "4:23.07"
-            },
-            {
-                "athletename": "Austin Rennhack",
-                "eventname": "WT",
-                "pr": "14.71m"
             },
             {
                 "athletename": "Tyler Santi",
@@ -196,16 +499,6 @@
                 "pr": "13.31m"
             },
             {
-                "athletename": "Andrew Vold",
-                "eventname": "60",
-                "pr": "7.25"
-            },
-            {
-                "athletename": "Matt Vosberg",
-                "eventname": "SP",
-                "pr": "10.72m"
-            },
-            {
                 "athletename": "Matt Vosberg",
                 "eventname": "WT",
                 "pr": "13.17m"
@@ -219,11 +512,6 @@
                 "athletename": "Lupe Corn",
                 "eventname": "SP",
                 "pr": "12.84m"
-            },
-            {
-                "athletename": "Lupe Corn",
-                "eventname": "WT",
-                "pr": "13.18m"
             },
             {
                 "athletename": "Jaimie Deschand",
@@ -254,16 +542,6 @@
                 "athletename": "Natalie Johnson",
                 "eventname": "Mile",
                 "pr": "5:51.52"
-            },
-            {
-                "athletename": "Lindsey Jossie",
-                "eventname": "60H",
-                "pr": "10.82"
-            },
-            {
-                "athletename": "Lindsey Jossie",
-                "eventname": "LJ",
-                "pr": "4.55m"
             },
             {
                 "athletename": "Madison Juenger",
@@ -306,16 +584,6 @@
                 "pr": "1:03.78"
             },
             {
-                "athletename": "Kya Smith",
-                "eventname": "400",
-                "pr": "1:06.00"
-            },
-            {
-                "athletename": "Brenna Steinagel",
-                "eventname": "SP",
-                "pr": "8.42m"
-            },
-            {
                 "athletename": "Brenna Steinagel",
                 "eventname": "WT",
                 "pr": "8.68m"
@@ -336,302 +604,9 @@
                 "pr": "27.16"
             },
             {
-                "athletename": "Salina Warren",
-                "eventname": "HJ",
-                "pr": "1.50m"
-            },
-            {
                 "athletename": "Brooke Wellhausen",
                 "eventname": "Mile",
                 "pr": "5:14.15"
-            },
-            {
-                "athletename": "Madeline Zirbel",
-                "eventname": "HJ",
-                "pr": "1.55m"
-            }
-        ]
-    },
-    {
-        "meetname": "Pointer  Alumni Open",
-        "meetdate": "Jan 14, 2023",
-        "numberofprs": 55,
-        "uniqueprs": 47,
-        "prsatmeet": [
-            {
-                "athletename": "Joseph Adams",
-                "eventname": "3000",
-                "pr": "9:28.13"
-            },
-            {
-                "athletename": "Brad Brewer",
-                "eventname": "300",
-                "pr": "36.80"
-            },
-            {
-                "athletename": "Mike Brown",
-                "eventname": "3000",
-                "pr": "9:09.18"
-            },
-            {
-                "athletename": "Tom Cole",
-                "eventname": "60",
-                "pr": "7.48"
-            },
-            {
-                "athletename": "Tom Cole",
-                "eventname": "PV",
-                "pr": "3.45m"
-            },
-            {
-                "athletename": "Andrew  Durham",
-                "eventname": "WT",
-                "pr": "14.98m"
-            },
-            {
-                "athletename": "Eric  East",
-                "eventname": "Mile",
-                "pr": "4:34.88"
-            },
-            {
-                "athletename": "Makhi Etheridge",
-                "eventname": "HJ",
-                "pr": "1.83m"
-            },
-            {
-                "athletename": "Garrett Exo",
-                "eventname": "3000",
-                "pr": "9:13.17"
-            },
-            {
-                "athletename": "Christian Germain",
-                "eventname": "60",
-                "pr": "7.80"
-            },
-            {
-                "athletename": "Christian Germain",
-                "eventname": "200",
-                "pr": "25.74"
-            },
-            {
-                "athletename": "Braedon Gilles",
-                "eventname": "600",
-                "pr": "1:22.09"
-            },
-            {
-                "athletename": "Chance Jampole",
-                "eventname": "300",
-                "pr": "38.68"
-            },
-            {
-                "athletename": "Parker Johnson",
-                "eventname": "800",
-                "pr": "2:29.39"
-            },
-            {
-                "athletename": "Parker Johnson",
-                "eventname": "PV",
-                "pr": "2.70m"
-            },
-            {
-                "athletename": "Chris Kalies",
-                "eventname": "600",
-                "pr": "1:28.30"
-            },
-            {
-                "athletename": "Aiden Leist",
-                "eventname": "300",
-                "pr": "36.96"
-            },
-            {
-                "athletename": "Jack Luedtke",
-                "eventname": "PV",
-                "pr": "3.30m"
-            },
-            {
-                "athletename": "Jacob  McConnell",
-                "eventname": "WT",
-                "pr": "13.05m"
-            },
-            {
-                "athletename": "Conor McCoy",
-                "eventname": "300",
-                "pr": "38.81"
-            },
-            {
-                "athletename": "Mason Mead",
-                "eventname": "300",
-                "pr": "36.28"
-            },
-            {
-                "athletename": "Austin Rennhack",
-                "eventname": "SP",
-                "pr": "14.91m"
-            },
-            {
-                "athletename": "Ryan Rininger",
-                "eventname": "Mile",
-                "pr": "4:39.69"
-            },
-            {
-                "athletename": "Noah Rosas",
-                "eventname": "300",
-                "pr": "37.43"
-            },
-            {
-                "athletename": "Tyler Santi",
-                "eventname": "300",
-                "pr": "37.05"
-            },
-            {
-                "athletename": "Aidan Schleutermann",
-                "eventname": "3000",
-                "pr": "9:15.57"
-            },
-            {
-                "athletename": "Dilan Schneider",
-                "eventname": "SP",
-                "pr": "13.82m"
-            },
-            {
-                "athletename": "Dilan Schneider",
-                "eventname": "WT",
-                "pr": "16.89m"
-            },
-            {
-                "athletename": "Canon Siedschlag",
-                "eventname": "300",
-                "pr": "38.42"
-            },
-            {
-                "athletename": "Alex Swanson",
-                "eventname": "SP",
-                "pr": "9.06m"
-            },
-            {
-                "athletename": "Jacob Ulrich",
-                "eventname": "SP",
-                "pr": "12.61m"
-            },
-            {
-                "athletename": "Tyler Vincetich",
-                "eventname": "300",
-                "pr": "37.66"
-            },
-            {
-                "athletename": "Andrew Vold",
-                "eventname": "200",
-                "pr": "23.75"
-            },
-            {
-                "athletename": "Montana Albrecht",
-                "eventname": "60H",
-                "pr": "9.82"
-            },
-            {
-                "athletename": "Ashley Bartelt",
-                "eventname": "60",
-                "pr": "10.87"
-            },
-            {
-                "athletename": "Ashley Bartelt",
-                "eventname": "300",
-                "pr": "43.27"
-            },
-            {
-                "athletename": "Madddy  Boehnlein",
-                "eventname": "60",
-                "pr": "11.17"
-            },
-            {
-                "athletename": "Madddy  Boehnlein",
-                "eventname": "300",
-                "pr": "48.39"
-            },
-            {
-                "athletename": "Jordyn Briggs",
-                "eventname": "600",
-                "pr": "1:54.83"
-            },
-            {
-                "athletename": "Savana Burg",
-                "eventname": "60",
-                "pr": "8.79"
-            },
-            {
-                "athletename": "Jaimie Deschand",
-                "eventname": "600",
-                "pr": "2:00.13"
-            },
-            {
-                "athletename": "Chloe Dettmers",
-                "eventname": "60",
-                "pr": "8.66"
-            },
-            {
-                "athletename": "Bella Harriman",
-                "eventname": "SP",
-                "pr": "11.30m"
-            },
-            {
-                "athletename": "Natasha Hess",
-                "eventname": "60H",
-                "pr": "11.13"
-            },
-            {
-                "athletename": "Natasha Hess",
-                "eventname": "HJ",
-                "pr": "1.53m"
-            },
-            {
-                "athletename": "Madison Hohn",
-                "eventname": "300",
-                "pr": "47.66"
-            },
-            {
-                "athletename": "Shelby Klobucar",
-                "eventname": "300",
-                "pr": "44.63"
-            },
-            {
-                "athletename": "Rachel Locke",
-                "eventname": "PV",
-                "pr": "2.27m"
-            },
-            {
-                "athletename": "Kassia Marquardt",
-                "eventname": "600",
-                "pr": "1:54.00"
-            },
-            {
-                "athletename": "Kylee Sauers",
-                "eventname": "600",
-                "pr": "1:46.46"
-            },
-            {
-                "athletename": "Kya Smith",
-                "eventname": "300",
-                "pr": "48.81"
-            },
-            {
-                "athletename": "Adyn Theriault",
-                "eventname": "LJ",
-                "pr": "4.83m"
-            },
-            {
-                "athletename": "Anetha Vogele",
-                "eventname": "60",
-                "pr": "10.69"
-            },
-            {
-                "athletename": "Anetha Vogele",
-                "eventname": "300",
-                "pr": "42.90"
-            },
-            {
-                "athletename": "Brooke Wellhausen",
-                "eventname": "600",
-                "pr": "1:37.82"
             }
         ]
     }
